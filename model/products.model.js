@@ -18,7 +18,7 @@ let ProductSchema = new Schema({
         required: true
     },
     category:{
-        type:String,
+        type: Schema.Types.String,
         ref: 'Category',
         required: true
     },
